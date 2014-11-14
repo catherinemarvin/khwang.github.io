@@ -9,6 +9,16 @@ layout: default
 
   <p>When I'm not coding, you can find me swing dancing both for fun and for show, drawing, or playing instruments. I can also be found DJing swing music around the Bay.</p>
 
+  <h1>Projects</h1>
+
+  {% for project in site.data.projects %}
+  {{ project.name }}
+  <br>
+  {{ project.description }}
+  <br>
+  {{ project.link }}
+  {% endfor %}
+
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
