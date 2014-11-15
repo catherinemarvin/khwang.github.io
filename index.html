@@ -11,13 +11,14 @@ layout: default
 
   <h1>Projects</h1>
 
-  {% for project in site.data.projects %}
-  {{ project.name }}
-  <br>
-  {{ project.description }}
-  <br>
-  {{ project.link }}
-  {% endfor %}
+  <ul>
+    {% for project in site.data.projects %}
+    <li>
+      <a href="{{ project.link }}">{{ project.name }}</a>
+      {{ project.description }}
+    </li>
+    {% endfor %}
+  </ul>
 
   <h1>Contact</h1>
 
