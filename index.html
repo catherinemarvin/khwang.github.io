@@ -11,28 +11,27 @@ layout: default
 
   <h1>Projects</h1>
 
-  {% for project in site.data.projects %}
-  {{ project.name }}
-  <br>
-  {{ project.description }}
-  <br>
-  {{ project.link }}
-  {% endfor %}
+  A full list of my projects can be found at my <a href="https://github.com/khwang">GitHub</a>.
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+  <ul>
+    {% for project in site.data.projects %}
+    <li>
+      <a href="{{ project.link }}">{{ project.name }}</a>
+      {{ project.description }}
+    </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <h1>Contact</h1>
+
+  <p>You can reach me through a myriad of ways. Choose any and all that are convenient for you.</p>
+
+  <a href="https://www.facebook.com/k3vinhwang">Facebook</a>
+  <a href="http://www.linkedin.com/in/k3vinhwang">LinkedIn</a>
+  <a href="https://twitter.com/#!/k3vinhwang">Twitter</a>
+  <a href="https://plus.google.com/115680152090000837531/">Google+</a>
+  <a href="mailto:k3vinhwang@gmail.com">E-mail</a>
+  <a href="http://www.last.fm/user/k3vinhwang">Last.fm</a>
+
 
 </div>
