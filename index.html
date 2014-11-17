@@ -9,18 +9,20 @@ layout: default
 
   <p>When I'm not coding, you can find me swing dancing both for fun and for show, drawing, or playing instruments. I can also be found DJing swing music around the Bay.</p>
 
-  <h1>Projects</h1>
+  <div class="projects">
+    <h1>Projects</h1>
 
-  A full list of my projects can be found at my <a href="https://github.com/khwang">GitHub</a>.
+    <p>A full list of my projects can be found at my <a href="https://github.com/khwang">GitHub</a>.</p>
 
-  <ul>
-    {% for project in site.data.projects %}
-    <li>
-      <a href="{{ project.link }}">{{ project.name }}</a>
-      {{ project.description }}
-    </li>
-    {% endfor %}
-  </ul>
+    <ul>
+      {% for project in site.data.projects %}
+      <li>
+        <a href="{{ project.link }}">{{ project.name }}</a>
+        {{ project.description }}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 
   <h1>Contact</h1>
 
