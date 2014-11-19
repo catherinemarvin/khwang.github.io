@@ -17,23 +17,27 @@ layout: default
     <ul>
       {% for project in site.data.projects %}
       <li>
-        <a href="{{ project.link }}">{{ project.name }}</a>
-        {{ project.description }}
+        <a href="{{ project.link }}">{{ project.name }}</a> 
+        — {{ project.description }}
       </li>
       {% endfor %}
     </ul>
   </div>
 
-  <h1>Contact</h1>
+  <div class="contact">
+    <h1>Contact</h1>
 
-  <p>You can reach me through a myriad of ways. Choose any and all that are convenient for you.</p>
+    <p>You can reach me through a myriad of ways. Choose any and all that are convenient for you.</p>
 
-  <a href="https://www.facebook.com/k3vinhwang">Facebook</a>
-  <a href="http://www.linkedin.com/in/k3vinhwang">LinkedIn</a>
-  <a href="https://twitter.com/#!/k3vinhwang">Twitter</a>
-  <a href="https://plus.google.com/115680152090000837531/">Google+</a>
-  <a href="mailto:k3vinhwang@gmail.com">E-mail</a>
-  <a href="http://www.last.fm/user/k3vinhwang">Last.fm</a>
+    <ul>
+      <li><a href="https://www.facebook.com/k3vinhwang">Facebook</a></li>
+      <li><a href="http://www.linkedin.com/in/k3vinhwang">LinkedIn</a></li>
+      <li><a href="https://twitter.com/#!/k3vinhwang">Twitter</a></li>
+      <li><a href="https://plus.google.com/115680152090000837531/">Google+</a></li>
+      <li><a href="mailto:k3vinhwang@gmail.com">E-mail</a></li>
+      <li><a href="http://www.last.fm/user/k3vinhwang">Last.fm</a></li>
+    </ul>
+  </div>
 
   <p>I also have a resume available as a <a href="resume/resume.pdf">PDF</a>.</p>
 
