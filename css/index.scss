@@ -8,11 +8,21 @@ body {
     }
 }
 
-ul {
-    list-style: none;
-    margin-left: 0px;
-}
-li {
-    border-bottom: 1px #d5d5d5 dashed;
-    margin-bottom: 1px;
+.home {
+
+    .header-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+    }
+
+    ul {
+        list-style: none;
+        margin-left: 0px;
+    }
+    li {
+        border-bottom: 1px #d5d5d5 dashed;
+        margin-bottom: 1px;
+    }
 }
