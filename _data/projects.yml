@@ -1,3 +1,7 @@
+- name: Itch.iOS
+  description: An iOS app for <a href='http://itch.io/'>Itch.io</a>, an indie game marketplace.
+  link: https://github.com/khwang/cantaloupe
+
 - name: Strawberry
   description: An interactive visualizer. Fun times with WebGL and the new pointer lock API. It won third place at the Fall 2012 Berkeley HackJam. Check out a live demo <a href='http://kevinhwang.net/strawberry/index.html'>here</a>. Note that it's Chrome only for now--blame vendor prefixes for that.
   link: https://github.com/khwang/strawberry
