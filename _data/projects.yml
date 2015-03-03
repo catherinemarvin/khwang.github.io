@@ -1,5 +1,5 @@
 - name: Saguaro
-  description: An app that maximizes the calories for your buck at Taco Bell. Enter how much money you wish to spend and receive a list of food that you should eat. Try out a live demo <a href="https://taco-bell.herokuapp.com/"here</a>.
+  description: An app that maximizes the calories for your buck at Taco Bell. Enter how much money you wish to spend and receive a list of food that you should eat. Try out a live demo <a href="https://taco-bell.herokuapp.com/">here</a>.
   link: https://github.com/khwang/saguaro
 
 - name: Itch.iOS
