@@ -1,0 +1,3 @@
+[submodule "strawberry"]
+	path = strawberry
+	url = https://github.com/khwang/strawberry
