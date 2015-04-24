@@ -1,0 +1,6 @@
+[submodule "strawberry"]
+	path = strawberry
+	url = https://github.com/khwang/strawberry
+[submodule "musicality-lecture"]
+	path = musicality-lecture
+	url = https://github.com/khwang/musicality-lecture
