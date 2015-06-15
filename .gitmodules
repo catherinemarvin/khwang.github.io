@@ -4,3 +4,6 @@
 [submodule "musicality-lecture"]
 	path = musicality-lecture
 	url = https://github.com/khwang/musicality-lecture
+[submodule "dragonbird"]
+	path = dragonbird
+	url = git@github.com:khwang/dragonbird.git
