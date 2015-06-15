@@ -6,4 +6,4 @@
 	url = https://github.com/khwang/musicality-lecture
 [submodule "dragonbird"]
 	path = dragonbird
-	url = git@github.com:khwang/dragonbird.git
+	url = https://github.com/khwang/dragonbird
