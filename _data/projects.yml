@@ -11,11 +11,11 @@
   link: https://github.com/khwang/cantaloupe
 
 - name: Strawberry
-  description: An interactive visualizer. Fun times with WebGL and the new pointer lock API. It won third place at the Fall 2012 Berkeley HackJam. Check out a live demo <a href='http://kevinhwang.net/strawberry/index.html'>here</a>. Note that it's Chrome only for now--blame vendor prefixes for that.
+  description: An interactive visualizer. Fun times with WebGL and the new pointer lock API. It won third place at the Fall 2012 Berkeley HackJam. Check out a live demo <a href='http://kevinhwang.net/strawberry/index.html'>here</a>. Note that it’s Chrome only for now--blame vendor prefixes for that.
   link: https://github.com/khwang/strawberry
 
 - name: Dragonfruit
-  description: I built this application to learn both Ruby and Rails. It's a game where a picture appears on screen, you copy it, then you and your friends vote for the best imitation. Credit for the idea goes to <a href='http://davidmah.posterous.com/'>David Mah</a>.
+  description: I built this application to learn both Ruby and Rails. It’s a game where a picture appears on screen, you copy it, then you and your friends vote for the best imitation. Credit for the idea goes to <a href='http://davidmah.posterous.com/'>David Mah</a>.
   link: https://github.com/khwang/dragonfruit
 
 - name: Gala
@@ -23,7 +23,7 @@
   link: https://github.com/khwang/gala
 
 - name: Coffee
-  description: A web app for tracking chores, TODOs, and bills within a household. Likely won't be finished since I discovered <a href='http://goodmate.co/'>Goodmate</a>, but it was a good exercise in learning Redis.
+  description: A web app for tracking chores, TODOs, and bills within a household. Likely won’t be finished since I discovered <a href='http://goodmate.co/'>Goodmate</a>, but it was a good exercise in learning Redis.
   link: https://github.com/khwang/coffee
 
 - name: Read With Us
